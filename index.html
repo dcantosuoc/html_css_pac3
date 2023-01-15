@@ -2,45 +2,70 @@
 <html class="principal" lang="ca">
   <head>
     <meta charset="utf-8" lang="ca">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <title>Club de Running Ritme</title>
+    <title>Dones en la ciència</title>
     
     <link rel="stylesheet" href="./css/estils.css">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
 
   </head>
 
   <body>
     <!-- Aquí empieza el encabezado principal que se mantendrá en todas las páginas del sitio web -->
-    <header class="principal">
+    <header>
+     <div>
+      <p><img src="img/logo-ciencia-tecnologia.svg" alt="log de Ciència i Tecnologia"></p>
+      <p><a href="index.html">Ciència i Tecnologia</a></p>
+     </div>
     <div>
     <nav>
       <ul>
-        <li><a href="practica-el-running.html">Practica el Running</a></li>
-        <li><a href="rutas.html">Rutes</a></li>
-        <li><a href="inscripción-socios.html">Fes-te'n soci</a></li>
+        <li><a href="referents.html">Referents científiques</a></li>
+        <li><a href="11-de-febrer.html">11 de febrer</a></li>
+        <li><a href="iniciatives.html">Iniciatives</a></li>
       </ul>
     </nav>
   </div>
-
-    </header>
-    <main class="principal">
-      <div class="titol"> 
-        <h1 class="titol"><img class="inline" src="./img/isologo-white.png" alt="Logo del Club Ritme">ritme</h1>
-        <h2 class="subtitol">El teu club de running</h2>
-      </div>
+  </header>
+    <main>
+      
     </main>
     <!-- Y aquí está nuestro pie de página principal que se utiliza en todas las páginas de nuestro sitio web -->
-    <footer class="principal">
+    <footer>
       <div>
-      <p>2022 © David Cantós López. Assignatura: <abbr title="HyperText Markup Language">HTML</abbr> i <abbr title="Cascading Style Sheets">CSS</abbr></p>
-      <ul>
-      <li><a href="" target="_blank">Avís Legal</a></li>
-      <li><a href="" target="_blank">Política de privacitat</a></li>
-      <li><a href="" target="_blank">Política de cookies</a></li>
-      </ul>
+        <img src="img/logo-ciencia-tecnologia-white.svg" alt="logo de Ciència i Tecnologia">
+        <a href="mailto:hola@cienciaitecnologia.org">hola@cienciaitecnologia.org</a>
+      </div>
+      <div>
+        <form>
+          <fieldset>
+          <legend>Sempre al dia amb el nostre bulletí de notícies</legend>
+          <p>
+            <input type="email" id="email" name="email" required  minlength="5" maxlength="50" placeholder="Escriu el teu email">
+          </p>
+          <p>
+            <input type="checkbox" id="politica" name="politica" required>
+            <label for="politica"><span>He llegit i accepto la <a href="" target="_blank">política de privacitat</a> <abbr title="obligatori">*</abbr></span></label>
+          </p>
+          <p><button type="submit">Suscriu-me</button></p>
+          </fieldset>
+        </form>
+       <div>
+        <ul>
+          <li><a href="" target="_blank">Avís Legal</a></li>
+          <li><a href="" target="_blank">Política de privacitat</a></li>
+          <li><a href="" target="_blank">Política de cookies</a></li>
+        </ul>
+      </div> 
+      <div>
+        <p>2022 © Ciència i tecnologia</p>
+        <p>Activitat realitzada per David Cantós López</p>
+        <p>Informació elaborada a partir de la biblioguia<cite><a href="https://biblioteca.uoc.edu/ca/biblioguies/biblioguia/Dones-ciencia-i-tecnologia/]">Dones ciència i tecnologia</a> de la biblioteca de la UOC</cite></p>
+        <p>Icona de la portada per <cite><a href="https://www.flaticon.es/iconos-gratis/atomo]" >flatart_icons</a></cite></p>
      </div>
     </footer>
   </body>
