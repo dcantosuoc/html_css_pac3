@@ -69,6 +69,7 @@ main a:hover {
 
 article {
     text-align: left;
+    line-height: 1.2rem;
 }
 
 figure {
@@ -262,15 +263,34 @@ section.referents article {
 }
 
 
-
 li.quadrat {
     list-style-type: square;
+    margin: 1.3rem;
 }
 
 li.quadrat::marker {
     color: rgb(240, 93, 80);
     font-weight: bold;
     font-size: 1.5rem;
+}
+
+li.quadrat p {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+li.quadrat p:first-child {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+li.quadrat p:nth-child(2) {
+    font-size: 0.9rem;
+}
+
+li.quadrat a {
+    font-size:0.8rem;
+    font-weight: bold;
 }
 
 footer {
