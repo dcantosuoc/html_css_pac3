@@ -129,7 +129,7 @@ div.capçalera_referents li:first-child {
 div.capçalera_referents li::before {
     content: " · ";
     color: rgb(245, 157, 35);
-    font-size: 1.2;
+    font-size: 1.2rem;
     font-weight: bolder;
 }
 
