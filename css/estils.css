@@ -23,6 +23,10 @@ header a:visited {
     color: rgb(93, 95, 121);
 }
 
+header p a {
+    color:black;
+}
+
 header p a:visited {
     color: black;
 }
